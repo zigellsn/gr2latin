@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<conversion name="Wikipedia Greek" source="greek" target="latin">
+  <regex operation="replace">
+    <expression>αυ(?=β|γ|δ|ζ|λ|μ|ν|ρ)</expression>
+    <operator>av</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>αυ(?=θ|κ|ξ|π|ς|σ|τ|φ|χ|ψ)|αυ\D</expression>
+    <operator>af</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ου|ού</expression>
+    <operator>ou</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ου|Ού</expression>
+    <operator>Ou</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ΟΥ|ΟΎ</expression>
+    <operator>OU</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Α|Ά</expression>
+    <operator>A</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ε|Έ</expression>
+    <operator>E</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Η|Ή</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ι|Ί|Ϊ</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ο|Ό</expression>
+    <operator>O</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Υ|Ύ|Ϋ</expression>
+    <operator>Y</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ω|Ώ</expression>
+    <operator>O</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>α|ά</expression>
+    <operator>a</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ε|έ</expression>
+    <operator>e</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>η|ή</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ι|ί|ϊ|ΐ</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ο|ό</expression>
+    <operator>o</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>υ|ύ|ϋ|ΰ</expression>
+    <operator>y</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ω|ώ</expression>
+    <operator>o</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>σ|ς</expression>
+    <operator>s</operator>
+  </regex>
+
+  <literal operation="replace">
+    <expression>νγ</expression>
+    <operator>ng</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>νξ</expression>
+    <operator>nx</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>νχ</expression>
+    <operator>nch</operator>
+  </literal>
+
+  <literal operation="replace">
+    <expression>Β</expression>
+    <operator>V</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Γ</expression>
+    <operator>G</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Δ</expression>
+    <operator>D</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Ζ</expression>
+    <operator>Z</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Θ</expression>
+    <operator>Th</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Κ</expression>
+    <operator>K</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Λ</expression>
+    <operator>L</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Μ</expression>
+    <operator>M</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Ν</expression>
+    <operator>N</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Ξ</expression>
+    <operator>X</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Π</expression>
+    <operator>P</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Ρ</expression>
+    <operator>R</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Σ</expression>
+    <operator>S</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Τ</expression>
+    <operator>T</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Φ</expression>
+    <operator>F</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Χ</expression>
+    <operator>Ch</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>Ψ</expression>
+    <operator>Ps</operator>
+  </literal>
+
+
+  <literal operation="replace">
+    <expression>β</expression>
+    <operator>v</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>γ</expression>
+    <operator>g</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>δ</expression>
+    <operator>d</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>ζ</expression>
+    <operator>z</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>θ</expression>
+    <operator>th</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>κ</expression>
+    <operator>k</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>λ</expression>
+    <operator>l</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>μ</expression>
+    <operator>m</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>ν</expression>
+    <operator>n</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>ξ</expression>
+    <operator>x</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>π</expression>
+    <operator>p</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>ρ</expression>
+    <operator>r</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>τ</expression>
+    <operator>t</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>φ</expression>
+    <operator>f</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>χ</expression>
+    <operator>ch</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>ψ</expression>
+    <operator>ps</operator>
+  </literal>
+
+  <literal operation="replace">
+    <expression>·</expression>
+    <operator>;</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>;</expression>
+    <operator>?</operator>
+  </literal>
+
+</conversion>

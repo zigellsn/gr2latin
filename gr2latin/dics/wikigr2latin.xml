@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<conversion name="Wikipedia Greek" source="greek" target="latin">
+  <regex operation="replace">
+    <expression>αι|αί</expression>
+    <operator>e</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(αυ|αύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>av</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(αυ|αύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>af</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>άυ|αϋ</expression>
+    <operator>ay</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(ηυ|ηύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>iv</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(ηυ|ηύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>if</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ήυ|ηϋ</expression>
+    <operator>iy</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>γγ</expression>
+    <operator>ng</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bγκ</expression>
+    <operator>g</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>γκ</expression>
+    <operator>ng</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>γξ</expression>
+    <operator>nx</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>γχ</expression>
+    <operator>nch</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ει|εί</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(ευ|εύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>ev</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(ευ|εύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>ef</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>έυ|εϋ</expression>
+    <operator>ey</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bμπ|(?&lt;=β|γ|δ|ζ|λ|μ|ν|ρ|θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ|$)μπ|μπ\b</expression>
+    <operator>b</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>μπ(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ)</expression>
+    <operator>mb</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>μπ(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>mp</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bντ|(?&lt;=β|γ|δ|ζ|λ|μ|ν|ρ|θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ|$)ντ|ντ\b</expression>
+    <operator>d</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ντ(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ)</expression>
+    <operator>nd</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ντ(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>nt</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>οι|οί</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ου|ού</expression>
+    <operator>ou</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Αι</expression>
+    <operator>Ai</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Αυ|Αύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>Av</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Αυ|Αύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>Af</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Άυ|Αϋ</expression>
+    <operator>Ay</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Γγ</expression>
+    <operator>G</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Γξ</expression>
+    <operator>nx</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Γχ</expression>
+    <operator>nch</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bΓκ</expression>
+    <operator>G</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Γκ</expression>
+    <operator>Ng</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ει|Έι|Εί</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Ευ|Εύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>Ev</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Ευ|Εύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>Ef</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Έυ|Εϋ</expression>
+    <operator>Ey</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bΜπ|(?&lt;=β|γ|δ|ζ|λ|μ|ν|ρ|θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ|$)Μπ|Μπ\b</expression>
+    <operator>B</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Μπ(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ)</expression>
+    <operator>Mb</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Μπ(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>Mp</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>\bΝτ|(?&lt;=β|γ|δ|ζ|λ|μ|ν|ρ|θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ|$)Ντ|Ντ\b</expression>
+    <operator>D</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ντ(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ)</expression>
+    <operator>Nd</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ντ(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>Nt</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Ηυ|Ηύ)(?=α|ε|ι|ο|υ|ω|ά|έ|ί|ό|ύ|ώ|β|γ|δ|ζ|λ|μ|ν|ρ|$)</expression>
+    <operator>Ιv</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>(Ηυ|Ηύ)(?=θ|κ|ξ|π|σ|ς|τ|φ|χ|ξ)</expression>
+    <operator>Ιf</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ήυ|Ηϋ</expression>
+    <operator>Ιy</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Οι|Όι|Οί</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ου|Ού</expression>
+    <operator>Ou</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>α|ά</expression>
+    <operator>a</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>β</expression>
+    <operator>v</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>γ</expression>
+    <operator>g</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>δ</expression>
+    <operator>d</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ε|έ</expression>
+    <operator>e</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ζ</expression>
+    <operator>z</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>η|ή</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>θ</expression>
+    <operator>th</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ι|ί|ϊ</expression>
+    <operator>i</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>κ</expression>
+    <operator>k</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>λ</expression>
+    <operator>l</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>μ</expression>
+    <operator>m</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ν</expression>
+    <operator>n</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ξ</expression>
+    <operator>x</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ο|ω|ό|ώ</expression>
+    <operator>o</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>π</expression>
+    <operator>p</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ρ</expression>
+    <operator>r</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>σ|ς</expression>
+    <operator>s</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>τ</expression>
+    <operator>t</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>υ|ύ|ϋ</expression>
+    <operator>y</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>φ</expression>
+    <operator>f</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>χ</expression>
+    <operator>ch</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>ψ</expression>
+    <operator>ps</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Α|Ά</expression>
+    <operator>A</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Β</expression>
+    <operator>V</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Γ</expression>
+    <operator>G</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Δ</expression>
+    <operator>D</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ε|Έ</expression>
+    <operator>E</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ζ</expression>
+    <operator>Z</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Η|Ή</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Θ</expression>
+    <operator>Th</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ι|Ί|Ϊ</expression>
+    <operator>I</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Κ</expression>
+    <operator>K</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Λ</expression>
+    <operator>L</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Μ</expression>
+    <operator>M</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ν</expression>
+    <operator>N</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ξ</expression>
+    <operator>X</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ο|Ω|Ό|Ώ</expression>
+    <operator>O</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Π</expression>
+    <operator>P</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ρ</expression>
+    <operator>R</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Σ</expression>
+    <operator>S</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Τ</expression>
+    <operator>T</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Υ|Ύ|Ϋ</expression>
+    <operator>Y</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Φ</expression>
+    <operator>F</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Χ</expression>
+    <operator>Ch</operator>
+  </regex>
+  <regex operation="replace">
+    <expression>Ψ</expression>
+    <operator>Ps</operator>
+  </regex>
+  
+  <literal operation="replace">
+    <expression>’</expression>
+    <operator>'</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>·</expression>
+    <operator>;</operator>
+  </literal>
+  <literal operation="replace">
+    <expression>;</expression>
+    <operator>?</operator>
+  </literal>
+  
+</conversion>
