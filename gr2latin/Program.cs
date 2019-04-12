@@ -16,7 +16,7 @@ namespace gr2latin
             {
                 StreamReader sr = new StreamReader(args[0]);
                 StreamWriter sw = new StreamWriter("out_" + args[0]);
-                ConvertLyrics cl = new ConvertLyrics("..\\..\\dics\\wikiGr2latin.xml");
+                ConvertLyrics cl = new ConvertLyrics("dics\\wikiGr2latin.xml");
 
                 while (!sr.EndOfStream)
                 {
